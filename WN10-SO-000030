@@ -1,3 +1,30 @@
+<#
+.SYNOPSIS
+    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+
+.NOTES
+    Author          : Trevino Parker
+    LinkedIn        : https://www.linkedin.com/in/trevinoparker
+    GitHub          : https://github.com/trevinoparker7
+    Date Created    : 2025-01-09
+    Last Modified   : 2025-01-09
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN10-SO-000030
+
+.TESTED ON
+    Date(s) Tested  : 2025-01-09
+    Tested By       : Trevino Parker
+    Systems Tested  : Windows 10
+    PowerShell Ver. : powershell ise
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\__remediation_template(WN10-SO-000030).ps1 
+#>
+
 This addresses WN10-SO-000030 by configuring the Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings security setting.
 powershell fix
 
